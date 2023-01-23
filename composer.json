@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "artmin96/filament-twitter-modal",
+    "description": "This is my package filament-twitter-modal",
     "keywords": [
-        ":vendor_name",
+        "ArtMin96",
         "laravel",
-        ":package_slug"
+        "filament-twitter-modal"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/artmin96/filament-twitter-modal",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Arthur Minasyan",
+            "email": "artminasyanartwork@gmail.com",
             "role": "Developer"
         }
     ],
@@ -38,13 +38,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "ArtMin96\\FilamentTwitterModal\\": "src",
+            "ArtMin96\\FilamentTwitterModal\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "ArtMin96\\FilamentTwitterModal\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -67,10 +67,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "ArtMin96\\FilamentTwitterModal\\FilamentTwitterModalServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "FilamentTwitterModal": "ArtMin96\\FilamentTwitterModal\\Facades\\FilamentTwitterModal"
             }
         }
     },
